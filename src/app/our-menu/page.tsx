@@ -14,7 +14,7 @@ export default function OurMenu() {
 <Link className="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="/">Home</Link>
 <Link className="text-secondary font-bold border-b-2 border-secondary font-body-md text-body-md transition-colors" href="/our-menu">Menu</Link>
 <Link className="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="/our-story">Our Story</Link>
-<Link className="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="/">Contact</Link>
+<Link className="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="/contact">Contact</Link>
 </div>
 <a href="https://www.swiggy.com/city/hyderabad/swachata-cafe-ashok-nagar-jawahar-nagar-rest1164878" target="_blank" rel="noopener noreferrer" className="bg-primary text-on-primary px-6 py-2 rounded-full font-label-md text-label-md scale-95 active:opacity-80 transition-transform hidden md:block">
                 Order Now
