@@ -7,17 +7,18 @@ export default function OurMenu() {
 {/*  TopNavBar  */}
 <nav className="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-sm transition-all duration-300 border-b border-outline-variant/30">
 <div className="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto">
-<div className="font-display-lg text-headline-md text-primary">
+<Link className="font-display-lg text-headline-md text-primary hover:text-secondary transition-colors" href="/">
                 Swatchata Cafe
-            </div>
+            </Link>
 <div className="hidden md:flex gap-8 items-center">
-<a className="text-secondary font-bold border-b-2 border-secondary font-body-md text-body-md transition-colors" href="/our-menu">Menu</a>
-<a className="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="/our-story">Our Story</a>
-<a className="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="/">Contact</a>
+<Link className="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="/">Home</Link>
+<Link className="text-secondary font-bold border-b-2 border-secondary font-body-md text-body-md transition-colors" href="/our-menu">Menu</Link>
+<Link className="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="/our-story">Our Story</Link>
+<Link className="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="/">Contact</Link>
 </div>
-<button className="bg-primary text-on-primary px-6 py-2 rounded-full font-label-md text-label-md scale-95 active:opacity-80 transition-transform hidden md:block">
+<a href="https://www.swiggy.com/city/hyderabad/swachata-cafe-ashok-nagar-jawahar-nagar-rest1164878" target="_blank" rel="noopener noreferrer" className="bg-primary text-on-primary px-6 py-2 rounded-full font-label-md text-label-md scale-95 active:opacity-80 transition-transform hidden md:block">
                 Order Now
-            </button>
+            </a>
 <button className="md:hidden text-primary">
 <span className="material-symbols-outlined text-3xl">menu</span>
 </button>
