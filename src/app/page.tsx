@@ -15,7 +15,7 @@ export default function Home() {
 <Link className="text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:text-secondary dark:hover:text-secondary-fixed transition-all duration-300" href="/our-story">Our Story</Link>
 <Link className="text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:text-secondary dark:hover:text-secondary-fixed transition-all duration-300" href="/contact">Contact</Link>
 </nav>
-<a href="https://www.swiggy.com/city/hyderabad/swachata-cafe-ashok-nagar-jawahar-nagar-rest1164878" target="_blank" rel="noopener noreferrer" className="bg-primary text-on-primary px-6 py-2 rounded-full font-label-md uppercase tracking-wider hover:bg-primary-container hover:text-on-primary-container transition-colors scale-95 active:opacity-80 transition-transform">
+<a href="https://www.swiggy.com/menu/1383296?source=sharing" target="_blank" rel="noopener noreferrer" className="bg-primary text-on-primary px-6 py-2 rounded-full font-label-md uppercase tracking-wider hover:bg-primary-container hover:text-on-primary-container transition-colors scale-95 active:opacity-80 transition-transform">
             Order Now
         </a>
 </header>

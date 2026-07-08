@@ -14,7 +14,7 @@ export default function Contact() {
             <Link className="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="/our-story">Our Story</Link>
             <Link className="text-secondary font-bold border-b-2 border-secondary font-body-md text-body-md transition-colors" href="/contact">Contact</Link>
           </div>
-          <a href="https://www.swiggy.com/city/hyderabad/swachata-cafe-ashok-nagar-jawahar-nagar-rest1164878" target="_blank" rel="noopener noreferrer" className="bg-primary text-on-primary px-6 py-2 rounded-full font-label-md text-label-md scale-95 active:opacity-80 transition-transform hidden md:block">
+          <a href="https://www.swiggy.com/menu/1383296?source=sharing" target="_blank" rel="noopener noreferrer" className="bg-primary text-on-primary px-6 py-2 rounded-full font-label-md text-label-md scale-95 active:opacity-80 transition-transform hidden md:block">
             Order Now
           </a>
         </div>
@@ -30,24 +30,6 @@ export default function Contact() {
           </p>
         </header>
 
-        {/* Founder Highlight - making it stand out */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-10 mb-24 bg-surface-container-low p-8 md:p-14 rounded-3xl border border-secondary/20 shadow-[0_0_40px_rgba(233,195,73,0.1)] relative overflow-hidden">
-           {/* decorative blob */}
-           <div className="absolute top-0 right-0 w-64 h-64 bg-secondary/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-           
-           <div className="relative w-48 h-48 md:w-64 md:h-64 shrink-0 group">
-             <div className="absolute inset-0 bg-gradient-to-tr from-secondary to-primary rounded-full animate-spin-slow opacity-60 blur-lg group-hover:opacity-100 transition-opacity duration-500"></div>
-             <img src="/founder.jpg" alt="Bhanu Prasad Goud Pasula - Founder" className="relative w-full h-full object-cover rounded-full border-[6px] border-surface shadow-2xl z-10 transition-transform duration-500 group-hover:scale-105" />
-           </div>
-           
-           <div className="text-center md:text-left z-10 max-w-2xl">
-              <h2 className="font-display-lg text-4xl md:text-5xl text-primary mb-2">Bhanu Prasad Goud Pasula</h2>
-              <p className="font-label-md text-secondary uppercase tracking-widest mb-6">Founder</p>
-              <p className="font-body-md text-on-surface-variant text-xl leading-relaxed italic">
-                 "Our mission is to provide clean, healthy, and calming daily food rooted in tradition. I'm always thrilled to connect with our guests and hear your thoughts. Please feel free to reach out to me directly!"
-              </p>
-           </div>
-        </div>
 
         {/* Contact Info and Form */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-24">
@@ -144,12 +126,15 @@ export default function Contact() {
 
         {/* Map Section */}
         <div className="w-full rounded-3xl overflow-hidden border border-outline-variant/30 shadow-2xl h-[450px] relative bg-surface-container flex items-center justify-center group">
-            <div className="absolute inset-0 bg-gradient-to-t from-surface-dim to-transparent opacity-50 z-10"></div>
-            <div className="text-center z-20 transition-transform group-hover:scale-105 duration-500">
-                <span className="material-symbols-outlined text-secondary text-7xl mb-4 drop-shadow-lg">map</span>
-                <p className="font-display-lg text-4xl text-primary drop-shadow-md">Google Maps</p>
-                <p className="text-on-surface-variant mt-2 text-lg">Map embedding placeholder</p>
-            </div>
+            <iframe 
+                src="https://www.google.com/maps?q=17.4109061,78.4907914&z=17&hl=en&output=embed" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen={true} 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
         </div>
       </main>
 
